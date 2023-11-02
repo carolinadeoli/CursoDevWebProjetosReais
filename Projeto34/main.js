@@ -3,8 +3,8 @@ let plus = document.getElementById('plus');
 let minus = document.getElementById('minus');
 
 
-
 let counter =0;
+
 plus.addEventListener('click', function(){  
     counter++;
     counterResult.innerHTML =counter;

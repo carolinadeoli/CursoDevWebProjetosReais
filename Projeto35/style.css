@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(99, 2, 99);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+h1{
+    color:rgba(255, 255, 255, 0.918);
+    font-size:4em;
+}
+#display{
+    color: rgba(255, 255, 255, 0.918);
+    font-size:2em;
+}
+
+#start , #stop, #reset{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.918);
+    border:none;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
