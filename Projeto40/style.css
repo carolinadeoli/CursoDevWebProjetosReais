@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(12, 103, 207);
+}
+.content{
+    background-color: white;
+    padding: 15em;
+    margin:10em;
+    margin-top:2em;
+    border-radius: 10px;
+    text-align: center;
+}
+button, ul{
+    margin-top: 2em;
+}
