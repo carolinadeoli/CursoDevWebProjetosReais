@@ -1,0 +1,13 @@
+#myInput{
+    padding: 15px;
+}
+li{
+    list-style-type: none;
+    font-size: 1.1em;
+    padding:.2em;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
