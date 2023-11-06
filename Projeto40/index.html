@@ -9,10 +9,18 @@
 <body>
     <h1>To Do list</h1>
     <div class="content">
-        <input type="text" id="new-task" placeholder="add task">
-        <button id="btn-new-task">Add</button>
-        <ul id="itens-list"></ul>
+        <div class="content-add-task">
+            <input type="text" id="new-task" placeholder="add task">
+            <button onclick="newTask()" id="btn-new-task" title="add your tasks">Add</button>
+        </div>
+        <div class="content-body">
+            <ul id="items-list">
+                <button></button>
+                 <button></button>
+            </ul>
+        </div>
+        
     </div>
-    
+<script src="main.js"></script>
 </body>
 </html>
