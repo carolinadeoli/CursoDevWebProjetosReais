@@ -1,0 +1,50 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.background{
+    background-color: white;
+    
+}
+.calculator{
+    position:absolute;
+    background-color: white;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    padding:15px;
+}
+
+.numbers{
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    font-size: 1.2em;
+    gap:2rem;
+}
+.operation{
+    color:rgb(109, 162, 233);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    font-size: 1.2em;
+    gap:2rem;
+    
+}
+#acButton{
+    color: white;
+    background-color:rgb(241, 14, 14);
+    border: none;
+}
+
+#equalButton{
+    color: white;
+    background-color: rgb(43, 43, 233);
+    border: none;
+}

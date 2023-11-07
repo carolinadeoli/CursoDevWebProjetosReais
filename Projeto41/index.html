@@ -4,26 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 41</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="background">
-        <div class="output">
-            <button>+</button>
-            <button>-</button>
-            <button>x</button>
-            <button>÷</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>.</button>
-            <button>AC</button>
-            <button>=</button>
+        <div class="calculator">
+        <p id="result">resultado</p>
+            <table>
+                <tr>
+                    <td><button class="operation" id="btnOperation">+</button></td>
+                    <td><button class="operation" id="btnOperation">-</button></td>
+                    <td><button class="operation" id="btnOperation">x</button></td>
+                    <td><button class="operation" id="btnOperation">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button class="numbers">7</button></td>
+                    <td><button class="numbers">8</button></td>
+                    <td><button class="numbers">9</button></td>
+                    <td rowspan="4"><button id="equalButton">=</button></td>
+                </tr>
+                <tr>
+                    <td><button class="numbers">4</button></td>
+                    <td><button class="numbers">5</button></td>
+                    <td><button class="numbers">6</button></td>
+                </tr>
+                <tr>
+                    <td><button class="numbers">1</button></td>
+                    <td><button class="numbers">2</button></td>
+                    <td><button class="numbers">3</button></td>
+                </tr>
+                <tr>
+                    <td><button class="numbers">0</button></td>
+                    <td><button class="numbers">.</button></td>
+                    <td><button id="acButton">AC</button></td>
+                </tr>
+            </table>
         </div>
     </div>
 </body>
