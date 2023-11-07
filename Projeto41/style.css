@@ -18,33 +18,54 @@
     padding:15px;
 }
 
+#result{
+    background-color: black;
+    color:white;
+    height: 35px;
+    text-align:right;
+    padding:5px;
+    
+    font-size:1.6em;
+    
+}
+button{
+    width: 50px;
+    height:50px;
+    font-size: 1.2em;
+    gap:2rem;
+    cursor: pointer;
+}
+
 .numbers{
     background-color: white;
     border-radius: 5px;
     border-style: solid;
     border-color: lightgrey;
     border-width: 2px;
-    font-size: 1.2em;
-    gap:2rem;
+    
 }
 .operation{
     color:rgb(109, 162, 233);
     border-radius: 5px;
     border-style: solid;
     border-color: lightgrey;
-    border-width: 2px;
-    font-size: 1.2em;
-    gap:2rem;
+    border-width: 2px;  
+    border-radius: 5px;
     
 }
 #acButton{
     color: white;
     background-color:rgb(241, 14, 14);
     border: none;
+    border-radius: 5px;
+    
 }
 
 #equalButton{
     color: white;
     background-color: rgb(43, 43, 233);
     border: none;
+    cursor:pointer;
+    height: 240px;
+    border-radius: 5px;
 }
