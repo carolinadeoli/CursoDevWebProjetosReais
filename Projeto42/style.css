@@ -1,0 +1,28 @@
+.modal-container{
+    width:100vw;
+    position:fixed;
+    display: none;
+    z-index:999;
+    justify-content: center;
+
+}
+
+.modal{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    background-color: white;
+    width:50%;
+}
+.close{
+    text-align: right;
+    border: none;
+    background-color: white;
+    color:lightgray;
+    font-size:1.3em;
+    cursor:pointer;
+}
+
+.active{
+    display:flex;
+}
