@@ -1,4 +1,4 @@
-function checkPalindrome(){
-    //criar função
-}
 
+function checkPalindrome{
+    
+}
